@@ -8,7 +8,7 @@ from agents.tool import function_tool
 
 # Set page configuration
 st.set_page_config(
-    page_title="OpenAI Deep Research Agent",
+    page_title="FactFlux",
     page_icon="📘",
     layout="wide"
 )
@@ -36,8 +36,8 @@ with st.sidebar:
         set_default_openai_key(openai_api_key)
 
 # Main content
-st.title("📘 OpenAI Deep Research Agent")
-st.markdown("This OpenAI Agent from the OpenAI Agents SDK performs deep research on any topic using Firecrawl.")
+st.title("📘 FactFlux")
+st.markdown("A smart research agent that explores, extracts, and elevates web knowledge using OpenAI's Agents SDK and Firecrawl integration.")
 
 # Research topic input
 research_topic = st.text_input("Enter your research topic:", placeholder="e.g., Latest developments in AI")
